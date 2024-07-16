@@ -4,49 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html chek point</title>
+    <link rel="stylesheet" href="./file.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body style="background-color: rgba(16, 16, 16, 0.893);">
+<body style="background-color: #dad7cd;margin: 0px;">
+    <nav>
+        <ul>
+            <li><a href="#home">home</a></li>
+        
+            <li>   <a href="#about">about</a></li>
+        
+            <li><a href="#resume">resume</a></li>
+       
+            <li><a href="#video">video</a></li>
+       
+            <li> <a href="#work">work</a></li>
+       
+            <li><a href="#contact">contact</a></li>
+        </ul>
+     </nav>  
     <header>
         
-     <img src="https://i.pinimg.com/originals/d4/c0/31/d4c031a721169dfdbfa33ee8276aca22.jpg" style="width: 100px;height:90px;">
-     <audio controls>
-      <source src="media/swown.mp3" type="audio/mpeg"/>
-     </audio>
-     <h1 style="color: whitesmoke;">Hi my name is [name] .What is yours?</h1>
-     <form>
-        ur name <input type = "text" name = "name_user"/>
-     </form>
-     <h1 style="color: whitesmoke;">I am a web development user .What about u?</h1>
-     <form>
+    <span>
+    <img src="https://i.pinimg.com/originals/d4/c0/31/d4c031a721169dfdbfa33ee8276aca22.jpg" style="width: 100px;height:90px;">
+    </span>
+    <div>
+    
+      <h1 >Hi I m a #### . What is yours?</h1>
+      <form>
+        <label>Your name please</label>
+         <input type = "text" name = "name_user" placeholder="####"/>
+      </form>
+      <h1>I am a web development student .What about You?</h1>
+      <form>
         <select>
             <option value="student">student</option>
             <option value="teacher">teacher</option>
             <option value="guest">guest</option>
             <option value="other">other</option>
           </select>
-    </form>
-     <nav>
-        <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#resume">resume</a></li>
-            <li><a href="#video">html video</a></li>
-            <li><a href="#work">work</a></li>
-            <li><a href="#contact">contact</a></li>
-        </ul>
-     </nav>
+      </form>
+      <audio controls>
+        <source src="media/swown.mp3" type="audio/mpeg"/>
+      </audio>
+    </div>
+     
     </header>
     <hr>
     <main>
-        <section id="home" style="background-color:rgba(254, 0, 0, 0.523);border: 10px;border-color: black;">
+        <section id="home" class="robot">
+            
             <h1>Welcome to my portfolio!</h1>
            <p> I’m a passionate web developer with a flair for creating beautiful and functional websites. Whether it’s crafting elegant front-end designs or diving into back-end logic, I love turning ideas into reality. Explore my work, and let’s build something amazing together!</p>
         </section>
-        <section id="about" style="background-color: rgb(232, 7, 7);border: 10px;border-color: black;">
+        <section id="about" class="robot">
+            
             <h2>About us!</h2>
            <p> Hi there! I’m [Your Name], a web enthusiast based in [Your Location]. My journey began with a fascination for HTML and CSS, and it quickly evolved into a full-stack adventure. I thrive on challenges, constantly learning and experimenting with new technologies. When I’m not coding, you’ll find me sipping coffee, reading tech blogs, or hiking in the great outdoors.</p>
         </section>
-        <section id="resume" style="background-color: rgb(236, 7, 7);border: 10px;border-color: black;">
+        <section id="resume" class="robot">
+            
             <h2>Re-sume!</h2>
             <p>Education:</p>
                 <p>is in Computer Science, [Your University]</p>
@@ -61,21 +80,21 @@
                                                 <p>Freelance Web Designer, [Your Freelance Projects]</p>
                 
         </section>
-        <section id="video">
-            <h1 style="color: whitesmoke;">This is a video I learnd html from it</h1>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/FQdaUv95mR8?si=OJy7WiHDXTJyWpRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <section id="video" class="robot">
+            <h1 >This is a video I learnd html from it</h1>
+            <iframe  src="https://www.youtube.com/embed/FQdaUv95mR8?si=OJy7WiHDXTJyWpRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
-        <section id="work" style="background-color: rgb(237, 5, 5);border: 10px;border-color: black;">
+        <section id="work" class="robot">
             <h2>Our work!!</h2>
             <p>Work: Here’s a glimpse of my recent projects:</p>
                 <p>Project 1: E-commerce website for a local boutique</p>
-                <p></p>Project 2: Portfolio site for an artist</p>
+                <p>Project 2: Portfolio site for an artist</p>
                 <p> Project 3: Blog platform using React and Firebase Explore these projects in detail on my GitHub!</p>
         </section>   
     </main>
     <hr>
     <footer>
-    <section id="contact" style="background-color: rgb(201, 26, 13);border: 10px;border-color: black;">
+    <section id="contact" class="robot">
         <p>Let’s connect! Feel free to reach out via email adamhadil2322@gmail.com . i rcommend learning web development with gomycode LinkedIn <a href="https://student.learn.gomycode.co/">gomycode page</a>. I’m open to collaborations, freelance gigs, or just a friendly chat. Looking forward to hearing from you!
                 2024©</p>
     </section>
